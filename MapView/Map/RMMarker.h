@@ -43,7 +43,7 @@ typedef enum : NSUInteger {
     UIColor *textForegroundColor;
     UIColor *textBackgroundColor;
 }
-
+@property (nonatomic, retain) UIView *contentView;
 /** @name Setting Label Properties */
 
 /** A custom label for the marker. The label is shown when first set. */
